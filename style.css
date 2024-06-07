@@ -1,0 +1,202 @@
+@font-face {
+    font-family: PSB;
+    src: url(./fanta/Fonts/Product\ Sans\ Bold.ttf);
+}
+@font-face {
+    font-family: PSR;
+    src: url(./fanta/Fonts/Product\ Sans\ Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: PSR;
+    /* background-color: #662115; */
+    
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+#main{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgb(255, 85, 0),rgb(255, 170, 0),rgb(249, 202, 13));
+   
+}
+nav{
+    position:fixed;
+    height: 13vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10vw;
+}
+nav a{
+    text-decoration: none;
+}
+.cntr-nav{
+    display: flex;
+    gap: 20px;
+}
+
+nav i{
+    font-size: 1.9vw;
+}
+
+.one{
+    height: 100vh;
+    width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.one h1{
+    font-size: 25vw;
+    font-size: PSB;
+    color: #fff;
+}
+.one img{
+    padding-top: 3vw;
+}
+.one #fanta{
+    width: 45%;
+    z-index: 1;
+    position: absolute;
+}
+#orange-cut{
+    position: absolute;
+    width: 20%;
+    top: 0;
+    left: 30%;
+}
+#orange{
+    width: 15%;
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    left: 55%;
+}
+#leaf{
+    width: 20%;
+    position: absolute;
+    top: 5%;
+    left: 3%;
+    transform: rotate(60deg);
+}
+#leaf2{
+    width: 15%;
+    position: absolute;
+    top: 40%;
+    left: 80%;
+}
+#cocoleaf{
+    width: 20%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.two{
+    height: 100vh;
+    width: 100%;
+    background-color: #662115;
+    display: flex;
+    padding: 0 3vw;
+    gap: 20px;
+}
+
+.left{
+    width: 50%;
+    height: 100%;
+    /* background-color: aqua; */
+   
+}
+.right{
+    width: 50%;
+    height: 100%;
+    /* background: red; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    color: white;
+}
+.right h1{
+    font-size: 40px;
+}
+
+
+.three{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to left top, rgb(235, 71, 17),rgb(204, 61, 61));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5vw;
+    width: 30vw;
+    height: 40vw;
+    background-color: white;
+    border-radius: 1rem;
+}
+.card h1{
+    font-size: 3vw;
+    margin-top: 23vw;
+}
+.card button{
+    padding: 0.9vw 1.5vw;
+    border: none;
+    border-radius: 10px;
+    font-size: 1vw;
+    background-color: orange;
+    font-weight: bold;
+    margin-top: 2vw;
+}
+
+#cocola{
+    width: 15%;
+    position: absolute;
+    top: 3%;
+    z-index: 4;
+}
+#pepsi{
+    width: 22%;
+    position: absolute;
+    top: 0%;
+    z-index: 5;
+}
+#lemon2{
+    position: absolute;
+    width: 30%;
+    z-index: 2;
+    top: -10%;
+}
+#lemon3{
+    position: absolute;
+    width: 30%;
+    z-index: 3;
+    top: -10%;
+}
+#lom1{
+    width: 30%;
+    position: absolute;
+    top: -9%;
+}
+#fanta3{
+    width: 40%;
+    position: absolute;
+    top: 3%;
+}
